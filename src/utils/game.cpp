@@ -7,6 +7,7 @@
 #include <csignal>
 #include <iomanip>
 #include <iostream>
+#include <sstream>
 
 #ifdef __unix__
 #include <sys/ioctl.h>
