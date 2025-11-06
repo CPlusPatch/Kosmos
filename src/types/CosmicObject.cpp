@@ -60,7 +60,7 @@ ansi_escape_codes::color_rgb CosmicObject::get_color(CosmicObject object) {
 
     std::srand(object.Seed);
 
-    ulong T = 1000 + rand() % 24001;
+    unsigned long T = 1000 + rand() % 24001;
 
     if (T <= 15000) {
         double u = (0.860117757 + 1.54118254 * 0.0001 * T +
